@@ -67,6 +67,25 @@ img {
     font-size: 110%;
     line-height: 1.4;
   }
+
+  img {
+    position: relative;
+  }
+
+  .content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    max-width: 25rem;
+    right: 5%;
+    bottom: 10%;
+    border-radius: 1em;
+    max-width: 20em;
+  }
+
+  .content h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -84,9 +103,3 @@ img {
     line-height: 1.5;
   }
 }
-
-
-  Typefaces: Denk One, Georgia
-  Text sizes: 1.5rem
-  Standard media query widths: 38em, 60em, 90em
-  Standard text sizes & line heights: 100%/1.3, 110%/1.4, 120%/1.5,  130%/1.5
